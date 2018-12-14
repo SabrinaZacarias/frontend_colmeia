@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url("./background.jpg");
+    background-image: url("./img/background.jpg");
     background-size: cover;
     height: 94vh;
     
@@ -29,7 +29,7 @@
     }
 
   #colab{
-    background-image: url('./users.png');
+    background-image: url('./img/users.png');
     background-repeat: no-repeat;  
     background-size: 1.8rem;
     background-position-y: center;
@@ -38,7 +38,7 @@
   }
   
   #entidade{
-    background-image: url('./house.png');
+    background-image: url('./img/house.png');
     background-repeat: no-repeat;
     background-size: 1.8rem;
     background-position-y: center;

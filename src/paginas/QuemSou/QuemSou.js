@@ -1,6 +1,6 @@
 import React from 'react'
 import Link from '../../componentes/Link/Link'
-import logo from './loguinho.png'
+import logo from './img/loguinho.png'
 import './QuemSou.css'
 
 function QuemSou (){
