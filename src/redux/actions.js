@@ -8,7 +8,7 @@ const json = localStorage.getItem('usuario')
 if (json) {
   const usuario = JSON.parse(json)
   configuracoes.headers = {
-    'x-access-token': usuario.token
+    'Authorization': usuario.token
   }
 }
 
@@ -24,8 +24,11 @@ export function logaUsuario(dados) {
     api
       .post('/login', json)
       .then(response => {
-        api.defaults.headers.common['x-access-token'] = response.data.token
-        dispatch({ type: 'LOGA_USUARIO', dados: response.data })
+        api.defaults.headers.common['Authorization'] = response.data.usuario.token
+        dispatch({ type: 'LOGA_USUARIO', dados: response.data.usuario})
+
+        // api.defaults.headers.common['x-access-token'] = response.data.token
+        // dispatch({ type: 'LOGA_USUARIO', dados: response.data })
       })
       .catch(error => {
         if (error.response) {
