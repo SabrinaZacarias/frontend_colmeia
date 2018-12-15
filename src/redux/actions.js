@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const configuracoes = {
-  baseURL: 'https://colmeia-api.herokuapp.com/'
+  baseURL: 'https://api-colmeia.herokuapp.com/'
 }
 
 const json = localStorage.getItem('usuario')
