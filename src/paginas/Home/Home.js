@@ -24,6 +24,7 @@ function Home (){
           <h3>SOBR<img src={icon} id="icon"/> NÓS</h3>
           <p>Somos uma plataforma que, através da mão de obra voluntária de alunos e/ou profissionais cadastrados em nosso site, oferece serviços gráficos e tecnológicos sem custo para ONGs e Projetos Sociais, também cadastrados, como impressos, digitais, web sites e etc. O estudante após desenvolver o projeto pode utilizá-lo em seu portfólio, tendo um diferencial ao se candidatar para vagas de trabalhos.</p>
         </div>
+        
         <img src={hexa} id="hexa"/>
       </section>
     </main>

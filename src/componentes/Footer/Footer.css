@@ -2,40 +2,113 @@
     background-color: black;
     color:white;
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding-left: 5rem;
+    padding-left:0.5rem;
 
 }
 
-#footer--section{
+#section--texto h5{
+display: none;
+}
+
+#section--texto p{
+    display: none;
+    }
+
+#section--infos{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-between;
     
 
 }
 
-
 #logo-footer{
-    width:18vw;
-    height: 6vh;
+    width:35vw;
+    height: 7vh;
+    
     
 }
 .icones{
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
     align-items: center;
-    width: 30vw;
-    margin:1rem 0 1rem 0;
+    margin:0.5rem 0 0.5rem 0;
 }
 .icones img{
-    width: 3vw;
-    height: 5vh;
+    width: 8vw;
+    height: 6vh;
     background-color: #fad61a;
-    padding: 1rem;
+    padding: 0.5rem;
     border-radius: 50%;
     margin-right: 0.5rem
+}
+
+@media (min-width: 992px){
+    .footer{
+        background-color: black;
+        color:white;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 5rem;        
+    
+    }
+
+    #section--responsivo{
+        display: flex;
+        justify-content: space-between;
+        width: 75%
+    }
+
+    #section--texto{
+        width:35%;
+    }
+    
+    #section--texto h5{
+        font-size: 1.2rem;
+        margin: 2rem 0 0;
+        display: block;
+    }
+
+    #section--texto p{
+        width:90%;
+        display: block;
+    }
+
+    #logo-footer{
+        width:18vw;
+        height: 6vh;
+        
+    }
+    
+    
+    #section--infos{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        
+    
+    }    
+    
+    .icones{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        width: 30vw;
+        margin:1rem 0 1rem 0;
+    }
+    .icones img{
+        width: 3vw;
+        height: 5vh;
+        background-color: #fad61a;
+        padding: 1rem;
+        border-radius: 50%;
+        margin-right: 0.5rem
+    }
 }

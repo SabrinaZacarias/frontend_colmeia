@@ -1,39 +1,51 @@
 .trabalhos {
-  padding: 1rem 1rem 0;
+  padding: 1rem;
   background-image: url('./background.jpg');
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 #loguinho{
-  width:1rem;
-  height:0.8rem;
-  }
+  width:1.4rem;
+  height:1.2rem;
+}
 
-  h1{
+h1{
   text-align: center;
-  font-size: 1rem;
-  }
+  font-size: 1.5rem;
+}
 
-  
+
+
+.imagens{
+  width:45vw;
+  height: 30vh;;
+}
+
+
 
 
 @media (min-width: 992px) {
   .trabalhos {
-      padding: 3.5rem 10% 0;
-      height: 92vh;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
+    padding: 3.5rem 10% 0;
+    height: 92vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   
   #loguinho{
-  width:2.3rem;
-  height:1.8rem;
+    width:2.3rem;
+    height:1.8rem;
   }
-
+  
   h2{
-  text-align: center;
-  font-size: 2.1rem;
+    text-align: center;
+    font-size: 2.1rem;
   }
   .imagens{
     width:25vw;
@@ -42,3 +54,4 @@
   }
   
 }
+

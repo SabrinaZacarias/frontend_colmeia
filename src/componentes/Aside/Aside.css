@@ -4,11 +4,28 @@
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    width:7vw;
-    height: 90vh;
+    width:12vw;
+    height: 80vh;
 }
 .aside img{
-    width: 5.5vw;
-    height:9.5vh;
+    width: 10.5vw;
+    height:10.5vh;
     cursor: pointer;
+}
+
+@media(min-width:992px){
+    .aside{
+        background-color: #fad61a;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        width:7vw;
+        height: 70vh;
+    }
+    .aside img{
+        width: 5.5vw;
+        height:9.5vh;
+        cursor: pointer;
+    }
 }
