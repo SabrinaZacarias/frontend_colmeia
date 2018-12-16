@@ -28,8 +28,8 @@ class Projeto extends Component{
         const {open} = this.state;
         return(
             <main className="projeto">
-                <img id="logoOng" src={logoOng}/>
                 <section className="projeto--section">
+                <img id="logoOng" src={logoOng}/>
                     <div>
                         <h3><img className="loguinho" src={logo}/>SOBRE A ENTIDADE:</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quis laoreet tellus. Donec dictum id justo in lobortis. Aliquam nibh ligula, laoreet et mollis in, venenatis in diam. Maecenas efficitur mattis turpis ac porta. Etiam sit amet malesuada justo. Nulla eu imperdiet turpis. Mauris consequat sollicitudin sapien id mattis. Nullam quis ipsum lorem.</p>

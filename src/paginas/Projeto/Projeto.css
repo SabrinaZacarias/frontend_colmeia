@@ -13,7 +13,8 @@
     height: 20vh;
     z-index: 1;
     position: absolute;
-    bottom: 20rem;
+    bottom: 22rem;
+    right:8rem;
     
 }
 
@@ -89,9 +90,10 @@
         
         width: 15vw;
         height: 22vh;
-        z-index: 1;
-        position: absolute;
+        z-index: 1;        
         bottom: 25rem;
+        left: 32rem;
+        position:absolute;
         
     }
     
@@ -102,6 +104,7 @@
         background-color: #fcff75;
         border-radius:10px;
         padding: 3.5rem 5rem 0;
+        text-align: left;
     }
     
     .loguinho{
@@ -114,7 +117,9 @@
     
     #dados{
         display: flex;
+        flex-direction: row;
         justify-content: space-between;
+
     }
     
     .alinhar{
