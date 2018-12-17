@@ -25,7 +25,7 @@ export function logaUsuario(dados) {
       .post('/login', json)
       .then(response => {
         api.defaults.headers.common['x-access-token'] = response.data.token
-        dispatch({ type: 'LOGA_USUARIO', dados: response.data})
+        dispatch({ type: 'LOGA_USUARIO', dados: response.data.token})
       })
       .catch(error => {
         if (error.response) {
