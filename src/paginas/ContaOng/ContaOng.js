@@ -43,7 +43,7 @@ class ContaOng extends Component {
       senha: campoSenha.getValor()
     }
     
-    this.props.cadastraUsuario(dados)
+    this.props.cadastraOng(dados)
   }
   
   habilitaOuDesabilita = () => {
@@ -110,5 +110,5 @@ class ContaOng extends Component {
   
   export default connect(
     (state) => ({ usuario: state.usuario }), 
-    { cadastraUsuario }
+    { cadastraOng }
     )(ContaOng)
