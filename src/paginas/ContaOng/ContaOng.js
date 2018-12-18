@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { Redirect } from 'react-router-dom'
 import { connect } from 'react-redux'
-import { cadastraUsuario } from '../../redux/actions'
+import { cadastraOng} from '../../redux/actions'
 import Link from '../../componentes/Link/Link'
 import Formulario from '../../componentes/Formulario/Formulario'
 import Label from '../../componentes/Label/Label'
