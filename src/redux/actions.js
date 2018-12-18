@@ -22,7 +22,7 @@ export function logaUsuario(dados) {
     }
 
     api
-      .post('/login', json)
+      .post('api/login', json)
       .then(response => {
         api.defaults.headers.common['x-access-token'] = response.data.token
         dispatch({ type: 'LOGA_USUARIO', dados: response.data})
@@ -53,7 +53,7 @@ export function cadastraUsuario(dados) {
     }
 
     api
-      .post('/users', json)
+      .post('api/users', json)
       .then(() => {
         dispatch(logaUsuario(dados))
       })
@@ -72,7 +72,7 @@ export function cadastraOng(dados) {
     }
 
     api
-      .post('/users', json)
+      .post('api/users', json)
       .then(() => {
           dispatch(logaUsuario(dados))
         })
